@@ -1,0 +1,164 @@
+body {
+    background-image: url('images/bg4.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    margin: 0px;
+}
+
+#nav div img {
+    height: 70px;
+    margin-left: 40px;
+}
+
+div a {
+    text-decoration: none;
+}
+
+div a .btn-login{
+    color: white;
+    background: #cb2a16;
+    padding: 10px 15px 10px 15px;
+    /* border-radius: 8px; */
+    margin-left: -30%;
+}
+
+div a .btn-login:hover{
+    cursor: pointer;
+    background-color: #ff351b;
+}
+
+div a .btn-register{
+    color: white;
+    background: #cb2a16;
+    padding: 10px 15px 10px 15px;
+    /* border-radius: 8px; */
+}
+
+div a .btn-register:hover{
+    cursor: pointer;
+    background-color: #ff351b;
+}
+
+.mid-content{
+    margin-top: 130px;
+}
+
+.input button{
+    color: white;
+    background: #cb2a16;
+    padding: 5px 15px 5px 15px;
+    margin-left: -88px;
+}
+.input button:hover{
+    cursor: pointer;
+    background-color: #ff351b;
+;
+}
+
+.mid-content .input .textbox{
+    width: 20%;
+    padding: 5px 10px 5px 10px;
+}
+
+.container .text-container {
+    margin-top: 50px;
+    margin-left: 20%;
+}
+
+.container div .flatscreen {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.movies{
+	margin-top: 85px;
+	width: 100%;
+	text-align: center;
+	/* padding: 25px 5px 60px 5px;
+	background-color:rgba(0, 0, 0, 0.7); */
+}
+.movies a{
+	text-decoration: none;
+}
+.movies img{
+	margin-top: 20px;
+	height: 150px;
+	padding-right: 20px;
+	padding-left: 20px;
+	transition-duration: .2s;
+}
+.movies img:hover{
+	margin-top: -10px;
+}
+
+.footer-content {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 8px 56px 8px;
+    margin-top: 50px;
+}
+
+.footer-content .footer img{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin-top: 20px;
+    padding: 2px 0px 2px 0px;
+}
+
+.footer .facebook{
+    margin-right: 2px;
+}
+
+.footer .instagram{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.footer .twitter{
+    margin-right: 10px;
+}
+
+/* socialicon */
+ul{
+    list-style-type: none;
+}
+
+ul#horizontal-list {
+    list-style: none;
+    padding-top: 20px;
+    }
+
+ul#horizontal-list li {
+    display: inline;
+}
+
+#socialicon {
+    width: 50px;
+}
+
+/* div wholescreen */
+.full-height{
+    height: 100%;
+}
+
+div.image{
+    content:url('images/bg-welcome.jpg');
+}
+
+    body {
+        background-image: url('images/bg-welcome.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
